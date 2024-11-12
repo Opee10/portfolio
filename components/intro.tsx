@@ -31,8 +31,8 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/shahrier_hossain_casual_Image.jpg"
-              alt="Shahrier Hossain"
+              src="/opeedp.jpg"
+              alt="Shafiul Opee"
               width="280"
               height="280"
               quality="100"
@@ -62,8 +62,8 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Shahrier Hossain.</span>
-       {" "} I am a <span className="font-bold">Software Engineer</span> with
+        <span className="font-bold">Hello, I'm Shafiul Opee.</span>
+       {" "} I am a <span className="font-bold">SQA Engineer</span> with
         <span className="font-bold"> over 1.5 years of experience</span> in developing applications and websites.
         I am passionate about becoming a <span className="font-bold">Researcher</span>, with a deep interest in   {" "}
         <span className="font-bold">Neural Data Science</span>, <span className="font-bold">Brain-Computer Interfaces</span>, and
