@@ -24,101 +24,152 @@ export const links = [
     hash: '#experience',
   },
   {
+    name: 'Research', // Added Research
+    hash: '#research',
+  },
+  {
     name: 'Contact',
     hash: '#contact',
   },
 ] as const;
 
+
 export const experiencesData = [
+  // Education Segment
   {
-    title: 'Bsc in Computer Science and Engineering',
-    place: 'American International University-Bangladesh',
+    title: 'B.Sc. in Computer Science & Engineering',
+    place: 'American International University-Bangladesh (AIUB)',
     location: 'Dhaka, Bangladesh',
-    description: 'Before graduation, I got a job as a full stack developer.',
+    description:
+      'Major: Information Systems | CGPA: 3.79/4.00 | AIUB Academic Scholarship | Honorable Dean’s List Award',
     icon: React.createElement(LuGraduationCap),
-    date: '2023',
+    date: 'January, 2020 – June, 2023',
   },
   {
-    title: 'Teaching Assistant',
-    place: 'American International University-Bangladesh',
-    location: 'Dhaka, Bangladesh',
-    description:
-      'Worked on four In-House products: Restaurant Portal, Delivery Service Portal, Admin Portal and Consumer Application',
+    title: 'Higher Secondary Certificate',
+    place: 'Shahid Syed Nazrul Islam College, Mymensingh',
+    location: '',
+    description: 'Group: Science | GPA: 4.58/5.00',
     icon: React.createElement(CgController),
-    date: '2023 - 2024',
+    date: '2017 – 2019',
   },
+
+  // Job Experiences Segment
   {
-    title: 'Full-Stack Developer',
-    place: 'Munchies',
-    location: 'Dhaka, Bangladesh',
+    title: 'Jr. Software Quality Assurance Engineer',
+    place: 'TechnoNext Software Limited, Dhaka-1212',
+    location: '',
     description:
-      'Worked on four In-House products: Restaurant Portal, Delivery Service Portal, Admin Portal and Consumer Application',
+      'Key Responsibilities: Conducting API and performance testing, executing test cases and bug reports, collaborating with developers.',
     icon: React.createElement(CgWorkAlt),
-    date: '2023 - 2024',
+    date: 'July, 2024 – Present',
   },
   {
-    title: 'Software Engineer',
-    place: 'JB Connect',
-    location: 'Dhaka, Bangladesh',
+    title: 'Research Intern',
+    place: 'Advanced Machine Intelligence Research Lab - AMIR',
+    location: 'Remote',
     description:
-      "I'm now a Software Engineer working in a Multinational Company. Associated with two large scaled projects, where I worked on both as a Full Stack Engineer and Frontend Engineer",
-    icon: React.createElement(FaReact),
-    date: '2024 - present',
-  },
-  {
-    title: 'Future Researcher',
-    place: 'maybe !..🤔',
-    location: 'anywhere 🌍',
-    description:
-      'I would love to be a Data Scientist or a Researcher in the field of Neuro Data Science.',
+      'Key Responsibilities: Developing and implementing machine learning models, conducting experiments on real-world datasets, analyzing results and refining models, collaborating with a team of researchers to solve complex problems, and contributing to the publication of research findings.',
     icon: React.createElement(CgData),
-    date: '2024 - present',
+    date: 'July, 2024 - Present',
+  },
+  {
+    title: 'Trainee Software Quality Assurance Engineer',
+    place: 'TechnoNext Software Limited, Dhaka-1212',
+    location: '',
+    description:
+      'Key Responsibilities: Identified and reported software defects, performed API testing, and worked closely with developers.',
+    icon: React.createElement(FaReact),
+    date: 'January, 2024 – June, 2024',
+  },
+  {
+    title: 'Software Quality Assurance Engineer – Intern',
+    place: 'Aqualink Bangladesh Limited, Dhaka-1213',
+    location: '',
+    description:
+      'Key Responsibilities: Executed test cases to ensure software functionality, executed bug reports, validated software products through hands-on manual testing.',
+    icon: React.createElement(CgData),
+    date: 'September , 2023 – December, 2023',
   },
 ] as const;
 
-export const skillsData = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Next.js',
-  'Node.js',
-  'Git',
-  'Tailwind',
-  'Prisma',
-  'MongoDB',
-  'Redux',
-  'GraphQL',
-  'Apollo',
-  'Express',
-  'PostgreSQL',
-  'Python',
-  'Django',
-  'Framer Motion',
-  'NumPy',
-  'Pandas',
-  'Matplotlib',
-  'Seaborn',
-  'Scikit-learn',
-  'Jupyter',
-  'OpenCV',
-  'TensorFlow',
-  'Keras',
-  'PyTorch',
-  'MATLAB',
-  // 'Caffe',
-  // 'YOLO',
-  // 'Scikit-image',
-  // 'SimpleCV',
-  // 'dlib',
-  // 'OpenPose',
-  // 'DeepLab',
-  // 'NVIDIA DIGITS',
-  // 'Neuroph',
-  // 'NEST',
-  // 'Brian2',
-  // 'NEURON',
-  // 'BindsNET',
-  // 'Nengo',
-] as const;
+export const skillsData = {
+  programmingLanguages: [
+    'Python',
+    'C++',
+    'Java',
+  ],
+  concepts: [
+    'OOP',
+    'SDLC',
+    'STLC',
+  ],
+  dataScienceAndAI: [
+    'Data Visualization',
+    'Data Analysis',
+    'Computer Vision',
+    'Deep Learning',
+    'Machine Learning',
+    'SVM',
+    'Random Forest',
+    'NumPy',
+    'Pandas',
+    'Scikit-learn',
+    'Seaborn',
+  ],
+  testing: [
+    'Performance Testing',
+    'API Testing',
+  ],
+};
+
+export const researchData = {
+  journalPapers: [
+    {
+      title:
+        "ELW-CNN: An Extremely Lightweight Convolutional Neural Network for Enhancing Interoperability in Colon and Lung Cancer Identification Using Explainable AI",
+      authors: "S. A. Opee, A. A. Eva, A. T. Noor, S. M. Hasan, and M. F. Mridha",
+      status: "Submitted",
+    },
+    {
+      title: "State-of-the-Art Posture Detection Techniques: A Review of Methods and Applications",
+      authors: "S. A. Opee, A. A. Eva, and M. F. Mridha",
+      status: "In process (70%)",
+    },
+    {
+      title:
+        "The Impact of Deep Learning and Computer Vision on Plant Leaf Disease Detection: A Comprehensive Review",
+      authors: "S. A. Opee, A. A. Eva, and M. F. Mridha",
+      status: "In process (70%)",
+    },
+  ],
+  conferencePapers: [
+    {
+      title: "Predictive Analytics for Dementia: Machine Learning on Healthcare Data",
+      authors:
+        "S. A. Opee, N. Fahad, F. Jahan, A. Sen, R. Ahmed, M. J. Hossen, M. K. Morol, and M. A.-A. Jubair",
+      status: "Accepted",
+    },
+    {
+      title:
+        "CNNRF-Ensemble: A Multifaced Approach For Predicting White Spot Syndrome Virus In Shrimp Farming",
+      authors: "S. A. Opee, et al.",
+      status: "Submitted",
+    },
+  ],
+  bookChapters: [
+    {
+      title: "Automated Plant Diseases Analysis Using Lightweight Deep Learning Models",
+      authors: "S. A. Opee, A. A. Eva, S. M. Hasan, A. T. Noor",
+      status: "Submitted",
+    },
+    {
+      title:
+        "Medical Imaging: MRI Brain Tumor Classification Using Convolutional Neural Networks (CNNs)",
+      authors: "S. A. Opee, A. A. Eva, M. F. Mridha",
+      status: "Ready to Submit",
+    },
+  ],
+};
+
+

@@ -19,18 +19,33 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        My professional journey began as a Teaching Assistant, where I developed the ability to assess challenges from multiple perspectives while mentoring students across various academic levels. Even before completing my degree in
-        <span className="font-medium"> Computer Science and Engineering</span>, I embarked on a career in software development. My initial role was as a <span className="font-medium"> full-stack developer</span> for a leading food delivery company, and I am currently working as a Software Engineer at a multinational organization.
-        <span className="italic"> What I enjoy most about programming</span> is the problem-solving process, and I
-        <span className="relative underline hover:text-red-500">love</span>
-        the sense of accomplishment that comes with finding solutions to complex challenges. My core technical stack includes <span className="font-medium">React, Next.js, Node.js, and MongoDB</span>, and I am also proficient in TypeScript and Prisma. I am continuously motivated to learn and adopt new technologies.
+        When I was nearing the end of my undergraduate studies, I found myself exploring the internet, searching for something that would truly spark my interest. I came across a course on{" "}
+        <span className="font-medium">Software Quality Assurance</span> and testing. It was not something I had planned for, but it seemed intriguing, so I decided to give it a shot. As I worked through the course, the world of software quality testing started to make sense to me. I was fascinated by how thoughtful experiments and careful testing could make a huge difference in how software worked for people.
       </p>
-
+  
+      <p className="mb-3">
+        That excitement pushed me to start looking for internships where I could gain real-world experience. After sending out many applications, I eventually landed an internship as a{" "}
+        <span className="font-medium">Software Quality Assurance Engineer</span>. During those four months, I learned hands-on skills like writing test cases, running performance checks, and collaborating closely with developers.
+      </p>
+  
+      <p className="mb-3">
+        Towards the end of my internship, I received a full-time job offer from another company. I accepted and began working as a{" "}
+        <span className="font-medium">Trainee Software Quality Assurance Engineer</span>. I continued to grow and learn, and today, I am still with that company, now working as a{" "}
+        <span className="font-medium">Junior Software Quality Assurance Engineer</span>. I remain eager to refine and expand my skills every day.
+      </p>
+  
+      <p className="mb-3">
+        About six or seven months ago, I became curious about the rapid advancements in{" "}
+        <span className="font-medium">Artificial Intelligence and Machine Learning</span>. Seeing how fast these technologies were evolving, I felt inspired to learn more. I went back to exploring online resources and began to understand the potential of AI to change the world, especially in areas like{" "}
+        <span className="font-medium">Deep Learning and Medical Imaging</span>. Now, alongside my full-time job, I am actively involved in research, driven by a passion for creating innovative solutions that can make a real difference.
+      </p>
+  
       <p>
-        <span className="italic">I am constantly fascinated</span> by the <span className="font-medium">human brain's capabilities</span> and the diverse ways in which people approach the same problem. Given the opportunity, I would love to pursue a career in {" "}
-        <span className="italic">Neuro Data Science</span>, delving into the human mind as a vast source of data. My passion for <span className="font-medium">learning</span> extends beyond technology; I am inspired by Art, Psychology, Interaction, and Technology, all of which influence my growth as both an engineer and a researcher.
+        I have always been captivated by the power of learning and the diverse ways in which technology intersects with human experience. My interests extend beyond the technical, drawing inspiration from{" "}
+        <span className="font-medium">Psychology, Art, and Human Interaction</span>. These passions continue to shape who I am, fueling my growth as both an engineer and a researcher, always eager to make meaningful contributions to the world.
       </p>
     </motion.section>
-
-  );
+  );  
+  
+  
 }

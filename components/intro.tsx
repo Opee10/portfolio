@@ -58,17 +58,25 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-xl font-medium leading-[1.5] sm:text-3xl"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
-        <span className="font-bold">Hello, I'm Shafiul Opee.</span>
-       {" "} I am a <span className="font-bold">SQA Engineer</span> with
-        <span className="font-bold"> over 1.5 years of experience</span> in developing applications and websites.
-        I am passionate about becoming a <span className="font-bold">Researcher</span>, with a deep interest in   {" "}
-        <span className="font-bold">Neural Data Science</span>, <span className="font-bold">Brain-Computer Interfaces</span>, and
-        {" "}<span className="font-bold">Human Behavior & Psychology</span>.
-      </motion.h1>
+  className="mb-10 mt-4 px-4 text-lg font-light leading-relaxed sm:text-2xl"
+  initial={{ opacity: 0, y: 100 }}
+  animate={{ opacity: 1, y: 0 }}
+>
+  <span className="font-bold text-gray-800">Hello, I'm Shafiul Opee.</span>{" "}
+  A <span className="text-accent">Software QA Engineer</span> with 
+  <span className="font-medium"> over 1 year of experience</span> in testing 
+  and refining web and mobile applications, focusing on API and performance 
+  testing.{" "}
+  <span className="text-blue-500">
+    Beyond my professional role, I am an AI Researcher,
+  </span>{" "}
+  driven by a passion for applying <span className="font-medium">Deep Learning</span> techniques 
+  to solve challenges in <span className="font-medium">Medical Imaging</span> and{" "}
+  <span className="font-medium">Computer Vision</span>. My work aims to push 
+  the boundaries of <span className="font-medium">Artificial Intelligence </span> 
+  to create impactful solutions in healthcare and beyond.
+</motion.h1>
+
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -101,7 +109,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-3 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 hover:dark:bg-white/5  hover:bg-gray-200"
-          href="https://www.linkedin.com/in/hossain-shahrier/"
+          href="https://www.linkedin.com/in/shafiul-opee/"
           target="_blank"
         >
           <BsLinkedin />
@@ -109,7 +117,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full  hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 hover:dark:bg-white/5 dark:text-white/60 hover:bg-gray-200"
-          href="https://github.com/hossain-shahrier"
+          href="https://github.com/Opee10"
           target="_blank"
         >
           <FaGithubSquare />

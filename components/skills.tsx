@@ -6,20 +6,6 @@ import { skillsData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 
-const fadeInAnimationVariants = {
-  initial: {
-    opacity: 0,
-    y: 100,
-  },
-  animate: (index: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      delay: 0.05 * index,
-    },
-  }),
-};
-
 export default function Skills() {
   const { ref } = useSectionInView("Skills");
 
@@ -27,26 +13,81 @@ export default function Skills() {
     <section
       id="skills"
       ref={ref}
-      className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
+      className="mb-20 max-w-[50rem] mx-auto scroll-mt-28 text-center"
     >
-      <SectionHeading>My skills</SectionHeading>
-      <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
-        {skillsData.map((skill, index) => (
-          <motion.li
-            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
-            key={index}
-            variants={fadeInAnimationVariants}
-            initial="initial"
-            whileInView="animate"
-            viewport={{
-              once: true,
-            }}
-            custom={index}
-          >
-            {skill}
-          </motion.li>
-        ))}
-      </ul>
+      <SectionHeading>My Skills</SectionHeading>
+
+      {/* Programming Languages */}
+      <div className="mt-6">
+        <h3 className="text-lg font-semibold mb-2 text-blue-500">
+          Programming Languages
+        </h3>
+        <div className="flex justify-center flex-wrap gap-3">
+          {skillsData.programmingLanguages.map((skill, index) => (
+            <motion.div
+              key={index}
+              className="bg-gray-800 text-white px-4 py-2 rounded-md"
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 100 }}
+            >
+              {skill}
+            </motion.div>
+          ))}
+        </div>
+      </div>
+
+      {/* Concepts */}
+      <div className="mt-6">
+        <h3 className="text-lg font-semibold mb-2 text-red-500">Concepts</h3>
+        <div className="flex justify-center flex-wrap gap-3">
+          {skillsData.concepts.map((skill, index) => (
+            <motion.div
+              key={index}
+              className="bg-gray-800 text-white px-4 py-2 rounded-md"
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 100 }}
+            >
+              {skill}
+            </motion.div>
+          ))}
+        </div>
+      </div>
+
+      {/* Data Science & AI */}
+      <div className="mt-6">
+        <h3 className="text-lg font-semibold mb-2 text-green-500">
+          Data Science & AI
+        </h3>
+        <div className="flex justify-center flex-wrap gap-3">
+          {skillsData.dataScienceAndAI.map((skill, index) => (
+            <motion.div
+              key={index}
+              className="bg-gray-800 text-white px-4 py-2 rounded-md"
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 100 }}
+            >
+              {skill}
+            </motion.div>
+          ))}
+        </div>
+      </div>
+
+      {/* Testing */}
+      <div className="mt-6">
+        <h3 className="text-lg font-semibold mb-2 text-yellow-500">Testing</h3>
+        <div className="flex justify-center flex-wrap gap-3">
+          {skillsData.testing.map((skill, index) => (
+            <motion.div
+              key={index}
+              className="bg-gray-800 text-white px-4 py-2 rounded-md"
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 100 }}
+            >
+              {skill}
+            </motion.div>
+          ))}
+        </div>
+      </div>
     </section>
   );
 }

@@ -4,6 +4,7 @@ import Experience from "@/components/experience";
 import Intro from "@/components/intro";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
+import Research from "@/components/Research"; // Import the new Research component
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <SectionDivider />
       <About />
       <Skills />
+      <Research /> {/* Add Research segment */}
       <Experience />
       <Contact />
     </main>
