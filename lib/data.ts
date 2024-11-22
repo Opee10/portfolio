@@ -130,13 +130,13 @@ export const researchData = {
     },
     {
       title: "State-of-the-Art Posture Detection Techniques: A Review of Methods and Applications",
-      authors: "S. A. Opee, A. A. Eva, and M. F. Mridha",
+      authors: "A. A. Eva, S. A. Opee, and M. F. Mridha",
       status: "In process (70%)",
     },
     {
       title:
         "The Impact of Deep Learning and Computer Vision on Plant Leaf Disease Detection: A Comprehensive Review",
-      authors: "S. A. Opee, A. A. Eva, and M. F. Mridha",
+      authors: "A. A. Eva, S. A. Opee, and M. F. Mridha",
       status: "In process (70%)",
     },
   ],
