@@ -11,14 +11,13 @@
   "dependencies": {
     "@react-email/components": "^0.0.25",
     "@react-email/tailwind": "^0.1.0",
-    "@types/node": "20.3.2",
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "10.4.14",
     "clsx": "^1.2.1",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
-    "framer-motion": "^10.12.17",
+    "framer-motion": "^11.11.17",
     "mailgun-js": "^0.22.0",
     "next": "^15.0.0-canary.178",
     "next-optimized-images": "^2.6.2",
@@ -36,6 +35,7 @@
   },
   "devDependencies": {
     "@types/mailgun-js": "^0.22.18",
+    "@types/node": "^22.9.1",
     "@types/react-vertical-timeline-component": "^3.3.3"
   }
 }
