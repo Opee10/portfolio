@@ -2,9 +2,9 @@ import About from "@/components/about";
 import Contact from "@/components/contact";
 import Experience from "@/components/experience";
 import Intro from "@/components/intro";
+import Research from "@/components/research";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
-import Research from "../components/Research";
 
 export default function Home() {
   return (
