@@ -1,5 +1,4 @@
 "use client";
-import Research from "@/components/research";
 
 import React from "react";
 import SectionHeading from "./section-heading";
