@@ -4,7 +4,7 @@ import Experience from "@/components/experience";
 import Intro from "@/components/intro";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
-import Research from "@/components/Research";
+import Research from "../components/Research";
 
 export default function Home() {
   return (
