@@ -164,7 +164,7 @@ export const researchData = {
       title:
         "Medical Imaging: MRI Brain Tumor Classification Using Convolutional Neural Networks (CNNs)",
       authors: "S. A. Opee, A. A. Eva, M. F. Mridha",
-      status: "Ready to Submit,",
+      status: "Ready to Submit",
     },
   ],
 };
